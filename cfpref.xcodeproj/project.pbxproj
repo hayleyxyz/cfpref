@@ -41,10 +41,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5525A2EF2291F6C4009B0C85 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				558DAEB42291B87600940935 /* cfpref.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		558DAEA82291B87600940935 = {
 			isa = PBXGroup;
 			children = (
-				558DAEB32291B87600940935 /* cfpref */,
+				5525A2EF2291F6C4009B0C85 /* src */,
 				558DAEB22291B87600940935 /* Products */,
 				558DAEBB2291B8BC00940935 /* Frameworks */,
 			);
@@ -56,14 +64,6 @@
 				558DAEB12291B87600940935 /* cfpref */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		558DAEB32291B87600940935 /* cfpref */ = {
-			isa = PBXGroup;
-			children = (
-				558DAEB42291B87600940935 /* cfpref.cpp */,
-			);
-			path = cfpref;
 			sourceTree = "<group>";
 		};
 		558DAEBB2291B8BC00940935 /* Frameworks */ = {
@@ -252,7 +252,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VV97EJRL7N;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -261,7 +260,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VV97EJRL7N;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
